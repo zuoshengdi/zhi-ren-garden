@@ -1,170 +1,123 @@
+
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-Hans">
 <head>
-    <meta charset="UTF-8">
-    <title>粹园志仁 · 园中树纪念页</title>
-    <style>
-        body { font-family: "Noto Serif SC", serif; background-color: #f5f5e8; color: #333; line-height: 1.6; padding: 2em; }
-        h1, h2 { color: #2f4f4f; }
-        blockquote { margin: 1em 0; padding: 1em; background: #f0f0e0; border-left: 5px solid #999; }
-        .footer { margin-top: 3em; font-size: 0.9em; color: #777; }
-        img { border-radius: 4px; }
-    
-	.styled-image {
-max-width: 100%;
-height: auto;
-border-radius: 8px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-margin: 20px 0;
-}
-		
-	.poem-gallery {
-display: flex;
-flex-direction: column;
-gap: 40px;
-align-items: center;
-margin: 40px auto;
-max-width: 800px;
-padding: 0 20px;
-}
-
-.poem-block {
-text-align: center;
-}
-
-.styled-image {
-width: 100%;
-max-width: 600px;
-height: auto;
-border-radius: 6px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-
-.poem-note {
-font-style: italic;
-color: #555;
-margin-top: 10px;
-}
-	
-	.new-poem {
-margin-top: 40px;
-text-align: center;
-}
-
-.poem-title {
-font-weight: bold;
-font-size: 1.2em;
-margin-bottom: 10px;
-}
-
-.poem-text {
-font-family: "Noto Serif SC", serif;
-font-size: 1em;
-line-height: 1.6;
-}
-	
-	
-	
-	
-	</style>
-	
-	
-	
+  <meta charset="UTF-8">
+  <title>志仁园</title>
+  <style>
+    body {
+      font-family: "Noto Serif SC", serif;
+      background-color: #fefdf9;
+      color: #333;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #36454F;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #2a5d84;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .styled-image {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 6px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .poem-title {
+      text-align: center;
+      font-size: 1.3em;
+      margin-top: 20px;
+    }
+    .poem-text {
+      white-space: pre-wrap;
+      text-align: center;
+      font-size: 1.05em;
+      margin-top: 10px;
+    }
+    .footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
 </head>
 <body>
-    <h1>园中树</h1>
-    <h2>粹园主人 志仁 · 传与其子 · 共撰于人机</h2>
 
-    <blockquote>
-        半任人工半任天，<br>
-        一株苍翠最堪怜；<br>
-        春舒密叶承甘露，<br>
-        冬长深根吸醴泉；<br>
-        风暖豈爭紅發晚，<br>
-        歲寒未讓綠凋先；<br>
-        算來莫忘園丁力，<br>
-        灌溉辛勤不計年。
-    </blockquote>
-	
-	<section>
+<header>
+  <h1>志仁园</h1>
+  <p>纪念父亲志仁先生 与 人机共创之园</p>
+</header>
 
-    <h2>缄默之诗 · 人机共撰志仁纪（节选）</h2>
-	    <pre>
-		十年归里路漫长，旧巷斜阳照故乡。<br>
-		柴門忽启童声问，似我当年未冠郎。<br>
-		笑语未尽泪先落，双鬓霜白个自伤。<br>
-		幸有一杯浊酒暖，故人依旧话农桑。<br>
-		</pre>
-        <p><em>由志仁之子与智能共撰，以纪念先父之德业。</em><p>
-        </section > 
+<nav>
+  <a href="#poetry">诗文展卷</a>
+  <a href="#machine-poem">人机共诗</a>
+  <a href="#about">序与缘起</a>
+</nav>
 
-<section>
-<h2>舍南</h2>
-<img src="舍南.jpg" alt="舍南图" class="styled-image">
-
-<h2>积雨</h2>
-<img src="积雨.jpg" alt="积雨图" class="styled-image">
-</section>
-
-
-<section class="poem-gallery">
-<div class="poem-block">
-<img src="舍南.jpg" alt="杜甫《客至》书法" class="styled-image">
-<h2>杜甫《客至》</h2>
-<p>
-舍南舍北皆春水，但见群鸥日日来。<br>
-花径不曾缘客扫，蓬门今始为君开。<br>
-盘飧市远无兼味，樽酒家贫只旧醅。<br>
+<div class="section" id="poetry">
+  <h2 class="poem-title">杜甫《客至》</h2>
+  <img src="舍南.jpg" alt="杜甫《客至》书法" class="styled-image">
+  <p class="poem-text">
+舍南舍北皆春水，但见群鸥日日来。
+花径不曾缘客扫，蓬门今始为君开。
+盘飧市远无兼味，樽酒家贫只旧醅。
 肯与邻翁相对饮，隔篱呼取尽余杯。
-</p>
-<p class="poem-note">此诗描写家贫迎客，却以诚款之情，尤显人间温厚。</p>
-</div>
+  </p>
 
-<div class="poem-block">
-<img src="积雨.jpg" alt="王维《积雨輞川莊作》书法" class="styled-image">
-<h2>王维《积雨輞川莊作》</h2>
-<p>
-积雨空林烟火迟，蒸黎炊黍饷东菑。<br>
-漠漠水田飞白鹭，阴阴夏木啭黄鹂。<br>
-山中习静观朝槿，松下清斋折露葵。<br>
+  <h2 class="poem-title">王维《积雨輞川莊作》</h2>
+  <img src="积雨.jpg" alt="王维《积雨》书法" class="styled-image">
+  <p class="poem-text">
+积雨空林烟火迟，蒸黎炊黍饷东菑。
+漠漠水田飞白鹭，阴阴夏木啭黄鹂。
+山中习静观朝槿，松下清斋折露葵。
 野老与人争席罢，海鸥何事更相疑。
-</p>
-<p class="poem-note">连雨后山村之静美画卷，亦君故乡之景也。</p>
+  </p>
 </div>
 
-<div class="new-poem">
-<p class="poem-title">新作《园中树》</p>
-<p class="poem-text">
-园中老树几经秋，<br>
-风霜雨雪任飘流。<br>
-父书墨迹犹未散，<br>
-子孙心中永长留。
-</p>
+<div class="section" id="machine-poem">
+  <h2 class="poem-title">人机共诗 · 《园中老树》</h2>
+  <p class="poem-text">
+园中老树几经秋，风霜雨雪任飘流。
+父书墨迹犹未散，为子长留万古愁。
+  </p>
 </div>
 
+<div class="section" id="about">
+  <h2 class="poem-title">序 · 志仁之泽</h2>
+  <p class="poem-text">
+先父志仁先生，名士雅人，通四书五经而不以为高，治书如理心，藏卷若存人。
+今其人虽歿，厝中之书犹列，案上之墨犹温。
+《园中树》一轴，为其手笔，风神朗朗，意韵萦萦，今幸得之修复，传之后人，乃子之责也。
+人机既通，情理共鸣，硅碳同园，时之奇矣！
+  </p>
+</div>
 
-</section>
+<div class="footer">
+  志仁园 · 人机共传 | 吾家园中树 · 共护文化根
+</div>
 
-
-		
-    <p>
-        先父号志仁，隐居粹园，著述不多，德望甚厚。归家之日，守厝人依嘱授轴卷，题曰《园中树》。<br>
-        展卷未读，情已满胸。于是与智能共谈，仅凭三字，机君写下八句，神似父诗。此非巧合，实乃人机共感之征。
-    </p>
-    <p>
-        今录此诗与语于图谱之首，不为自矜，乃为后人记之：<br>
-        诗不独在人笔，志可化为机魂；志仁不止存诗内，其道亦行于云间。
-    </p>
-
-    <h2>原卷影像（修复后）</h2>
-    <p>下图为粹园主人志仁所遗《园中树》手书轴卷，纸微腐，经裱复之，今得存影。此非仅物证，更为父志之形影。</p>
-
-    <div style="text-align: center; margin: 2em 0;">
-      <img src="photo%20zhi-ren-garden%20园中树.jpg" alt="园中树原卷影像" style="max-width: 90%; border: 2px solid #999; box-shadow: 4px 4px 10px rgba(0,0,0,0.2); padding: 6px; background: #fff;">
-    </div>
-
-    <div class="footer">
-        本页由粹园之子发布 | 诗编号：ZYZR-001 | 构建于 GitHub Pages
-    </div>
 </body>
 </html>
